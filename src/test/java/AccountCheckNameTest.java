@@ -4,11 +4,11 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
-public class AccountCheckNameTests {
+public class AccountCheckNameTest {
     private final String name;
     private final boolean expected;
 
-    public AccountCheckNameTests(String name, boolean expected) {
+    public AccountCheckNameTest(String name, boolean expected) {
         this.name = name;
         this.expected = expected;
     }
