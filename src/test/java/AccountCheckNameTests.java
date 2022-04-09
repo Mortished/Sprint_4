@@ -25,6 +25,7 @@ public class AccountCheckNameTests {
             { "IVAN IVANOV ", false},
             { "IVAN  IVANOV", false},
             { "IVANIVANOV", false},
+            { null, false},
         };
     }
     @Test
